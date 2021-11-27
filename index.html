@@ -1,65 +1,144 @@
 <!doctype HTML>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title> Вячеслав </title>
   <link rel="stylesheet" href='myself.css'>
   <link rel='icon' href='pics/favicon-16x16.png' type='image'>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation-float.min.css" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<body link='black' vlink='black' style='display: none' >
 
-<div id='headhunter'>
-  <span class="aff"> <a href='index.html'> <b> Домой </b> </a> </span>
-  <span class='aff' > <a href="#auf"> Что это? </a> </span>
-  <span class="aff"> <a href='dio/secondpage.html'> Карьера </a> </span>
-  <span class="aff"> <a href='dio/friends.html'> Отношения</a> </span>
-  <span class="aff"> <a href='dio/hobby.html'> Хобби </a> </span>
-  <span class="aff"> <a href='#insta'> Соц-сети </a> </span>
-</div>
+<body link='black' vlink='black' style="display:none">
 
-  <div class='vector'> </div>
-<div id='vafel'>
-<div class='name vafel'>
-  <h1> Вячеслав Лобода </h1>
-</div>
 
-<div class='bio vafel'>
-  <span> Студент <br> 18 лет, Харьков </span>
-</div>
-</div>
+  <!--                          NAVBAR TEST-->
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-xl navbar-light  ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <a class="navbar-brand" href="#"> <img src='pics/favicon-16x16.png'> </a>
 
-<div style='text-align:center;'>
-<img src='pics/2.jpg' width='300px' height='auto' >
-<img src='pics/1.jpg' width='300px' height='400' >
-<img src='pics/3.jpg' width='300px' height='auto' >
-</div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link aff" href="index.html">Домой <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aff" href="#auf">Что это?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aff" href="dio/secondpage.html">Карьера</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aff" href="dio/friends.html">Отношения</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aff" href="dio/hobby.html">Хобби</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aff" href="#insta">Соц-сети</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aff" href="#">Соц-сети</a>
+            </li>
+          </ul>
 
-<div class='wtf'>
-  <span class='bingo'> <a name='auf'></a> А это - моя работа по Web-технологиям,
-     где мне надо рассказать про себя, используя эти страницы  </span>
-</div>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-<div class='news'>
-<span class='bingo'> Так что листай выше и выбирай что угодно </span>
-</div>
-<div class='empty'> </div>
-<div class='insta'>
-<div class='secondbingo'> <span class='abingo' > <a id='insta'> </a> Мои соц сети: </span> </div>
+  <div class="container-fluid">
+    <div class="row vct">
+      <!-- <div class='vector col-xl-10 offset-xl-1'> </div> -->
+    </div>
 
-<form action='https://www.instagram.com/puer_evolutione/' target='_blank'>
-<button  class='gram fow'> </button>
-</form>
-<form action='https://t.me/nihilspero' target='_blank'>
-<button class='tg fow'>  </button>
-</form>
-<form action='https://steamcommunity.com/id/84875/' target='_blank'>
-<button  class='steam fow'> </button>
-</form>
-<form action='https://shikimori.one/FireSpirt' target='_blank'>
-<button  class='shiki fow'> </button>
-</form>
-</div>
-<script src='jquery-3.6.0.min.js'> </script>
-<script src='mainjs.js'> </script>
+
+    <div class="row mt-5 mb-5 bioname">
+      <div class='name  col-xl-4  offset-xl-1 col-sm-5 offset-lg-1 offset-sm-1 '>
+        <div class='namee'> Вячеслав Лобода </div>
+      </div>
+
+      <div class='col-xl-2 col-sm-2  offset-xl-4 offset-lg-2 offset-sm-2 biio'>
+        Студент <br> 18 лет, Харьков
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-sm-10 offset-sm-1 offset-lg-0 col-xl-3 offset-xl-1 picser">
+          <img src='pics/2.jpg' width='100%' height='auto'>
+        </div>
+        <div class="col-lg-4 col-sm-10 offset-sm-1 offset-lg-0 col-xl-3  picser">
+          <img src='pics/1.jpg' width='100%' height='auto'>
+        </div>
+        <div class="col-lg-4 col-sm-10 offset-sm-1 offset-lg-0  col-xl-3 picser">
+          <img src='pics/3.jpg' width='100%' height='auto'>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="container-fluid">
+      <div class='wtf col-sm-12'>
+        <span class='bingo'> <a name='auf'></a> А это - моя работа по Web-технологиям,
+          где мне надо рассказать про себя, используя эти страницы </span>
+      </div>
+
+      <div class='news col-sm-12'>
+        <span class='bingo2'> Так что листай выше и выбирай что угодно </span>
+      </div>
+
+
+    </div>
+    <div class='insta'>
+      <div class="row ">
+        <div class='secondbingo col-sm-2 offset-xl-3 offset-sm-1 col-xl-2 mt-3 offset-lg-3'> <span> <a id='insta'> </a> Мои соц сети: </span> </div>
+        <div class=" col-sm-1 offset-sm-4 offset-xl-0 offset-lg-0">
+          <form action='https://www.instagram.com/puer_evolutione/' target='_blank'>
+            <button class='gram fow'> </button>
+          </form>
+
+        </div>
+        <div class=" col-sm-1">
+          <form action='https://t.me/nihilspero' target='_blank'>
+            <button class='tg fow'> </button>
+          </form>
+
+        </div>
+        <div class="col-sm-1">
+          <form action='https://steamcommunity.com/id/84875/' target='_blank'>
+            <button class='steam fow'> </button>
+          </form>
+
+        </div>
+        <div class="col-sm-1">
+          <form action='https://shikimori.one/FireSpirt' target='_blank'>
+            <button class='shiki fow'> </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+  <script src='jquery-3.6.0.min.js'> </script>
+  <script src='mainjs.js'> </script>
 </body>
+
 </html>
