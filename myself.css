@@ -38,51 +38,44 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 .vafel {
   display: inline-block;
 }
-@media (min-width:992px) {
 .wtf { position: relative;
   width: 100%;
-  height: 150px;
   margin-top:30px;
   background: #F6F6F6;
-  font-size: 16px;
-line-height: 22px;
 text-align: center;
 }
-
 .bingo,
 .bingo2 {
   position: absolute;
   top:40%;
   left:20%;
-  right:20%;
-
+      right:20%}
+.news {
+        position: relative;
+         width: 100%;
+        text-align: center;
+      }
+@media (min-width:992px) {
+.wtf {   height: 150px;
+  font-size: 16px;
+line-height: 22px;
 }
 .news {
-  position: relative;
-   width: 100%;
    height: 150px;
    font-size: 16px;
   line-height: 22px;
-  text-align: center;
 }
 }
-@media (max-width:991px) {
-  .wtf { position: relative;
-
-    height: 10em;
-    margin-top:30px;
-    background: #F6F6F6;
+@media (min-width:516px) and (max-width:991px)  {
+  .wtf {   height: 10em;
     font-size: 26px;
-  line-height: 30px;
-  text-align: center;
-  }
+    line-height: 30px;}
 
   .bingo {
     position: absolute;
     top:30%;
     left:20%;
     right:20%;
-
   }
   .bingo2 {
     position: absolute;
@@ -92,19 +85,55 @@ text-align: center;
 
   }
   .news {
-    position: relative;
-     width: 100%;
      height: 6em;
      font-size: 26px;
-    line-height: 30px;
-    text-align: center;
+     line-height: 30px;
   }
   .bioname {
     font-size: 32px;
   }
   .namee {font-size: 64px;}
   .secondbingo{display: none;}
+
+
+  .suka-knopka {font-size: 26px;}
+  .atext {font-size: 3vw;}
 }
+
+@media  (max-width:515px) {
+  .wtf {   height: 10em;
+    font-size: 32px;
+  line-height: 30px;}
+
+.bingo {
+  position: absolute;
+  top:30%;
+  left:20%;
+  right:20%;
+}
+.bingo2 {
+  position: absolute;
+  top:30%;
+  left:20%;
+  right:20%;
+
+}
+.news {
+   height: 6em;
+   font-size: 32px;
+   line-height: 30px;
+}
+.bioname {
+  font-size: 44px;
+}
+.namee {font-size: 74px;}
+.secondbingo{display: none;}
+.text,
+.zz {
+  font-size: 36px;
+}
+}
+
 .picser {
   padding: 0% !important;
 }
@@ -239,40 +268,38 @@ html {
 }
 .text {
   display: block;
-  width: 60%;
+
   height: auto;
-  margin: 0px 20% 0px 20%;
   word-wrap: break-word;
   padding: 15px;
   background: rgba(230, 230, 250, 0.5)
 }
 .pics4doc {
-  width:300px;
-  height:410px;
-  margin: 1em 0% 10px 20%;
+  width:auto;
+  height:inherit;
+  padding: 0 !important;
+  margin: 0;
   border: solid 5px orange;
 }
 
 .focus {
-  margin:0px 0px 0px 15px;
+  display: block;
+  height: inherit;
+  padding-top: 0%;
+  margin-left: 0em;
   opacity: 0;
  z-index: 100;
   transition: .5s ease;
-  font-size: 18px;
-width: 300px;
-display: inline-block;
-position: absolute;
+
 top:40%;
-left: 55%;
 }
 
 .pic1,
 .pic2,
 .pic3 {
+display: inline-block;
   outline:2px solid #FAA21A;
   overflow: hidden;
-position:relative;
-
 }
 .pic1:hover .focus{
  opacity: 1;
@@ -283,27 +310,17 @@ position:relative;
 .pic3:hover .focus{
  opacity: 1;
 }
-.exp {
-  display: inline-block;
-  position: absolute;
-  top:40%;
-  left: 55%;
-}
 .back-to-top {
-  height: 40px;
-  position: relative;
+  margin: 15px;
+  text-align: center;
 }
-.back-to-top button {
-  position: absolute;
-  left: 50%;
-  top:20%;
-}
+
 .block {
   display: block;
-  width:60%;
+  width:auto;
   height:auto;
-  margin:0px 20% 0px 20%;
-  background: url(pics/note.jpg);
+  margin-bottom:20px;
+  background: #F5DEB3;
   background-size: cover;
 }
 .block div{
@@ -381,4 +398,17 @@ padding-top: 35px;
   .picser {
     margin-right: auto !important;
   }
+}
+.zz {
+  padding-top: 80%;
+}
+@media (max-width:990px) {
+.zz{
+  padding-top: 50%
+}
+}
+.btext{
+font-size: 96px;
+font-family: times,sans-serif;
+margin-left: 30%;
 }
