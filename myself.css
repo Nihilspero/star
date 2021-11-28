@@ -14,30 +14,7 @@ margin-bottom:0;
 font-size: 50px;
   padding: 5px;
 }
-.vctr {
-  position: relative;Ац
-}
-.vector {
-  position: absolute;
-width: 100%;
-height: 0px;
-left: 250px;
-right: 250px;
-top: 55px;
-border: 1px solid #828282;
-transform: matrix(1, 0, 0, 1, 0, 0);
-}
 
-#headhunter {
-  display: flex;
-  justify-content: space-around;
-}
-#vafel {position: relative;
-  height: 220px;
-}
-.vafel {
-  display: inline-block;
-}
 .wtf { position: relative;
   width: 100%;
   margin-top:30px;
@@ -100,40 +77,6 @@ line-height: 22px;
   .atext {font-size: 3vw;}
 }
 
-@media  (max-width:515px) {
-  .wtf {   height: 10em;
-    font-size: 32px;
-  line-height: 30px;}
-
-.bingo {
-  position: absolute;
-  top:30%;
-  left:20%;
-  right:20%;
-}
-.bingo2 {
-  position: absolute;
-  top:30%;
-  left:20%;
-  right:20%;
-
-}
-.news {
-   height: 6em;
-   font-size: 32px;
-   line-height: 30px;
-}
-.bioname {
-  font-size: 44px;
-}
-.namee {font-size: 74px;}
-.secondbingo{display: none;}
-.text,
-.zz {
-  font-size: 36px;
-}
-}
-
 .picser {
   padding: 0% !important;
 }
@@ -175,11 +118,6 @@ padding-top: 40px;
   height: 70px;
 
     overflow: hidden;
-}
-.abingo {
-  position:absolute;
-  left: 0%;
-top:30%;
 }
 form {
   margin-right:50px;
@@ -261,11 +199,7 @@ html {
       1px 1px 0 var(--mainColor);
   }
 }
-.empty {
-   background: #F6F6F6;
-  width: 100%;
-  height: 1em;
-}
+
 .text {
   display: block;
 
@@ -294,13 +228,7 @@ html {
 top:40%;
 }
 
-.pic1,
-.pic2,
-.pic3 {
-display: inline-block;
-  outline:2px solid #FAA21A;
-  overflow: hidden;
-}
+
 .pic1:hover .focus{
  opacity: 1;
 }
@@ -326,9 +254,7 @@ display: inline-block;
 .block div{
   padding: 15px;
 }
-.stupidword {
-text-align:center;
-}
+
 .navbar-collapse{
 
  justify-content:space-around;
