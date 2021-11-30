@@ -1,0 +1,340 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+    font-family:Montserrat, sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow-y: auto;
+}
+.namee {
+margin-top:0;
+margin-bottom:0;
+font-size: 50px;
+  padding: 5px;
+}
+
+.wtf { position: relative;
+  width: 100%;
+  margin-top:30px;
+  background: #F6F6F6;
+text-align: center;
+}
+.bingo,
+.bingo2 {
+  position: absolute;
+  top:40%;
+  left:20%;
+      right:20%}
+.news {
+        position: relative;
+         width: 100%;
+        text-align: center;
+      }
+@media (min-width:992px) {
+.wtf {   height: 150px;
+  font-size: 16px;
+line-height: 22px;
+}
+.news {
+   height: 150px;
+   font-size: 16px;
+  line-height: 22px;
+}
+}
+@media (min-width:516px) and (max-width:991px)  {
+  .wtf {   height: 10em;
+    font-size: 26px;
+    line-height: 30px;}
+
+  .bingo {
+    position: absolute;
+    top:30%;
+    left:20%;
+    right:20%;
+  }
+  .bingo2 {
+    position: absolute;
+    top:30%;
+    left:20%;
+    right:20%;
+
+  }
+  .news {
+     height: 6em;
+     font-size: 26px;
+     line-height: 30px;
+  }
+  .bioname {
+    font-size: 32px;
+  }
+  .namee {font-size: 64px;}
+  .secondbingo{display: none;}
+
+
+  .suka-knopka {font-size: 26px;}
+  .atext {font-size: 3vw;}
+}
+
+.picser {
+  padding: 0% !important;
+}
+.insta {
+  position: relative;
+   width: 100%;
+   height: 8em;
+   background: #F6F6F6;
+   font-size: 16px;
+ line-height: 22px;
+ text-align: center;
+ margin: 0;
+}
+.news:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+transition-duration: 1s;
+    box-shadow: inset 0 0 0 23px rgb(255, 127, 80);
+}
+.wtf:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+transition-duration: 1s;
+    box-shadow: inset 0 0 0 23px rgb(255, 127, 80);
+}
+
+.insta:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+transition-duration: 1s;
+    box-shadow: inset 0 0 0 23px rgb(255, 127, 80);
+}
+.secondbingo {
+padding-top: 40px;
+  width: 125px;
+  height: 70px;
+
+    overflow: hidden;
+}
+form {
+  margin-right:50px;
+  padding:0px;
+  margin-top:40px;
+}
+button {
+  border:none;
+}
+.fow{
+
+  width: 50px;
+  height: 50px;
+}
+.gram {
+  background: url(https://www.northstar-alliance.org/wp-content/uploads/2019/08/insta-logo.png);
+      background-size:cover;
+}
+.tg {
+
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png);
+      background-size:cover;
+}
+.steam {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png);
+  background-size:cover;
+}
+.shiki {
+  background: url(http://www.userlogos.org/files/logos/Aleksandr009/shikimori.png);
+  background-size: 100% 100%;
+}
+a {
+  text-decoration: none;
+}
+.aff {
+  background:
+     linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent 5px
+     );
+  background-repeat: repeat-x;
+  background-size: 100%;
+  color: #000;
+  padding-left: 10px;
+}
+
+.aff:hover {
+  background:
+     linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent
+     );
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --mainColor: #ff9800;
+}
+.name {
+  color: var(--mainColor);
+  text-decoration: none;
+}
+.name:hover {
+  color: transparent;
+  -webkit-text-stroke: 2px var(--mainColor);
+}
+@supports not(-webkit-text-stroke: 2px red) {
+  .name:hover {
+    text-shadow:
+      3px 3px 0 var(--mainColor),
+      -1px -1px 0 var(--mainColor),
+      1px -1px 0 var(--mainColor),
+      -1px 1px 0 var(--mainColor),
+      1px 1px 0 var(--mainColor);
+  }
+}
+
+.text {
+  display: block;
+
+  height: auto;
+  word-wrap: break-word;
+  padding: 15px;
+  background: rgba(230, 230, 250, 0.5)
+}
+.pics4doc {
+  width:auto;
+  height:inherit;
+  padding: 0 !important;
+  margin: 0;
+  border: solid 5px orange;
+}
+
+.focus {
+  display: block;
+  height: inherit;
+  padding-top: 0%;
+  margin-left: 0em;
+  opacity: 0;
+ z-index: 100;
+  transition: .5s ease;
+
+top:40%;
+}
+
+
+.pic1:hover .focus{
+ opacity: 1;
+}
+.pic2:hover .focus{
+ opacity: 1;
+}
+.pic3:hover .focus{
+ opacity: 1;
+}
+.back-to-top {
+  margin: 15px;
+  text-align: center;
+}
+
+.block {
+  display: block;
+  width:auto;
+  height:auto;
+  margin-bottom:20px;
+  background: #F5DEB3;
+  background-size: cover;
+}
+.block div{
+  padding: 15px;
+}
+
+.navbar-collapse{
+
+ justify-content:space-around;
+}
+.mobile-action-sheet {
+  background: $primary-color;
+  overflow: visible;
+  width: 94%;
+  left: 3%;
+  height: auto;
+  transform: translateY(100%);
+  color: $white;
+  padding-top: $global-padding;
+
+  label {
+    color: $white;
+  }
+  .close-button {
+    top: 0;
+    font-size: 26px;
+    color: darken($primary-color, 20%);
+    display: none;
+  }
+
+  &.is-open .close-button {
+    display: block;
+  }
+
+  .mobile-action-sheet-inner {
+    position: relative;
+    padding: 0 1rem 0.5rem;
+  }
+
+  .action-sheet-toggle {
+    position: absolute;
+    top: - $global-padding;
+    left: 50%;
+    transform: translate3D(-50%, -100%, 0);
+  }
+
+  &.position-bottom.is-transition-push::after {
+    box-shadow: none;
+  }
+
+  .button.white {
+    border: 1px solid $white;
+    color: $white;
+
+    &:hover, &:active {
+      border: 1px solid $white;
+      color: $white;
+    }
+  }
+}
+.biio {padding-top: 30px}
+ @media (min-width:992px) and (max-width:1285px) {
+.biio{
+padding-top: 50px;
+  }
+}
+@media (min-width:1285) {
+.biio{
+padding-top: 35px;
+ }
+}
+@media (min-width:1200px) {
+  .picser {
+    margin-right: auto !important;
+  }
+}
+.zz {
+  padding-top: 80%;
+}
+@media (max-width:990px) {
+.zz{
+  padding-top: 50%
+}
+}
+.btext{
+font-size: 96px;
+font-family: times,sans-serif;
+margin-left: 30%;
+}
