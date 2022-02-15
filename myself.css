@@ -339,8 +339,8 @@ font-family: times,sans-serif;
 margin-left: 30%;
 }
 ::selection {background: rgb(228, 107, 8);}
-::-moz-selection {background: rgb(228, 107, 8;}
-::-webkit-selection {background: rgb(228, 107, 8; color:#fff;}
+::-moz-selection {background: rgb(228, 107, 8);}
+::-webkit-selection {background: rgb(228, 107, 8); color:#fff;}
 .thumb img {
   -webkit-filter: grayscale(0);
   filter: none;
@@ -357,4 +357,12 @@ margin-left: 30%;
 
 .thumb {
   padding: 5px;
+}
+
+.bufet {
+  margin: 15px;
+  text-align: center;
+}
+.bufet-block {
+  margin-bottom:0px;
 }
